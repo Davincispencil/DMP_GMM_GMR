@@ -1,5 +1,5 @@
 # DMP_GMM_GMR
-Gaussian Mixture Regression is often used as a trajectory encoding method. And it actually gets a really good estimation of trajectory from multiple demonstraion and also has a full covariance matrix for all variables. But for estimating a trajectory, it really demands a few demonstrations and can not be generalized, which means that we need to retrain our GMR model, even we only want a slight modification a the previous one.
+Gaussian Mixture Regression is often used as a trajectory encoding method. And it actually gets a really good estimation of trajectory from multiple demonstraion and also has a full covariance matrix for all variables. But for estimating a trajectory, it really demands a few demonstrations and can not be generalized, which means that we need to retrain our GMR model, even we only want a slight modification on the previous one.
 
 Dynamic Movement Primitives is kind of simple and useful method for trajectory encoding and generalization. By using second-order spring-damp system and non-linear force function, a DMP model can present any non-linear trajectory with only one demonstration. Note that in this model, non-linear force function could be learned by LWR or LWPR.
 
